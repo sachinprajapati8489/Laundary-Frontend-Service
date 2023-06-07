@@ -1,0 +1,55 @@
+
+#main_logo_cont{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    margin: 8%;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+.home h1{
+    color: #5861AE;
+    font-size: 6vw;
+    margin: 0px;
+   padding-top: 2%;
+}
+
+.home p{
+    font-size: 12px;
+    color: #565657;
+    font-weight: bold;
+
+}
+.home h6{
+    font-size: 10px;
+    font-weight: bold;
+    margin-top: 10%;
+    color: #565657;
+}
+.home button{
+    background-color: #fff;
+    border: 2px solid #4552C1;
+    border-radius: 4px;
+    padding: 1.5% 4%;
+    margin-bottom: 15%;
+}
+#blue_line_cont{
+width: 0.7%;
+display: flex;
+align-items: center;
+position: relative;
+}
+#blue_line{
+    height: 30%;
+    width: 100%;
+    background-color: #00000038;
+}
+

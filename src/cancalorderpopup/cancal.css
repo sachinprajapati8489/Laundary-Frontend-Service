@@ -1,0 +1,70 @@
+#cancal-img {
+    width: 20%;
+    height: 100%;
+    background-color: #F40808;
+    margin-right: 5px;
+}
+
+#cancal-outer{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(8, 1, 1, 0.288);
+    display: inline-block;
+    position: absolute;
+}
+.margin_left{
+    margin-left: 15px;
+}
+.margin_right{
+    margin-right: 15px;
+}
+#cancal-inner{
+    width: 40%;
+    height: 40%;
+    background-color: #fff;
+    z-index: 150;
+    position: absolute;
+    right: 32%;
+    top: 16%;
+    display: flex;
+    align-items: center;
+    border-radius: 0.2%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.ca_alert_msg{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+}
+#cancalheader{
+    width: 99.99%;
+    height: 99%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#cancal-alert{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #4552C1;
+    color: #fff;
+}
+#cancal-button .bg_color_btn{
+    background-color: #4552C1;
+    color: #fff;
+}
+#cancal-button{
+    align-self: center;
+    margin-bottom: 7%;
+}

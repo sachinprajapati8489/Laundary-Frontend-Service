@@ -1,0 +1,65 @@
+
+.orders_body_cont{
+  display:flex;
+  flex-direction: row;
+  width: 100%;
+}
+.user-sidebar{
+  background-color:#5861AE;
+  width:5%;
+  height: 100vh;
+  
+}
+.bg_wh{
+  background-color: #fff;
+}
+.bg_dark{
+  background-color: black;
+}
+.col_wh{
+  color: #fff;
+}
+.orders_section2{
+  width: 94%;
+}
+.orders_section2 .btn-orders{
+  width: 6rem;
+  border:1px solid #5861AE;
+  margin: 0px 8px;
+}
+.order_section2_1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+.order_search_icon{
+  width:min-content;
+  align-self: center;
+}
+.cr-order-btn-cont{
+  width: 50%;
+  display: flex;
+  justify-content: right;
+}
+.user-sidebar img{
+  top: 119px;
+  left: 50px;
+  width: 22px;
+  height: 22px;
+  margin: 10px;
+  align-self: center;
+}
+.orders_table{
+  margin: 20px;
+}
+.create_btn_center{
+  height: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

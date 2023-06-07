@@ -1,0 +1,61 @@
+
+h3{
+    font-size: 30px;
+    color: #4552C1;
+}
+#loginsection{
+    margin-left: 140px;
+    margin-top: 50px;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    padding: 7%;
+    width: 37%;
+    color: #4552C1;
+    background-color: #B9C0FD1A;
+}
+.login h3{
+    color: #4552C1;
+}
+.login input{
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #5861AE;
+    background-color: #b9c0fd00;
+    outline: none;
+}
+#pass_container{
+    margin-top: 10%;
+}
+#user_name_cont{
+    margin-top: 10%;
+}
+.login h6{
+    align-items: flex-end;
+    font-weight: bold;
+    text-align: right;
+    margin-top: 0px;
+}
+.login button{
+    background-color:#4552C1;
+    color: #fff;
+    width: 25%;
+    height:60%;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    padding: 1% 2%;
+    margin-top: 5%;
+    font-size: 1.5vw;
+}
+#signInBtn{
+    display: flex;
+    justify-content: center;
+}
+.login label{
+    font-size: 12px;
+}
+

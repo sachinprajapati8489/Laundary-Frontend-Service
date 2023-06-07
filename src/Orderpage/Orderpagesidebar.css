@@ -1,0 +1,26 @@
+
+#sidebar{
+    margin-top: 0px;
+    width: 60px;
+    height: 600px;
+    background-color: #5861AE;
+    border: 1px solid gray;
+}
+.img{
+    width: 100%;
+    height: 50px;
+    padding-top: 20px;
+  
+}
+.imgsec{
+    width: 50%;
+    height: 30px;
+    margin:  0 auto;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+#u{
+    background-color: white;
+}

@@ -1,0 +1,14 @@
+#section1{
+    width: 100%;
+    height: 500px;
+}
+ #spiner_cont {
+    height: 100%;
+    width: 100%;
+    background-color: #45557633;
+    position: absolute;
+    z-index: 9;
+    display: flex!important;
+    flex-direction: column;
+    align-items: center;
+}

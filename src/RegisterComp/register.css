@@ -1,0 +1,64 @@
+#reg_container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+#reg_container h1{
+    color: #5861AE;
+}
+#right_side_cont{
+    width :30%;
+}
+#form_container{
+    width: 70%;
+    background-color: #B9C0FD1A;
+}
+#form_container input{
+    width: 45%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #5861AE;
+    outline: none;
+    
+    background-color: #b9c0fd00;
+}
+#form_container input:first-child{
+    margin: 5% 2.5% 0% 5%;
+}
+#form_container input:last-child{
+    margin: 5% 5% 0% 2.5%
+}
+#form_container form{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+form div{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+}
+#reg_btn{
+    background-color:#4552C1;
+    color: #fff;
+    width: 15vh;
+    height:4.7vh;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    padding: 1% 2%;
+}
+#check_box{
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+#form_container #check_box label{
+    font-size: 12px;
+}
+#form_container #check_box input{
+    margin: 0px;
+    padding: 0px;
+    width: 3%;
+}
